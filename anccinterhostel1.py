@@ -1,0 +1,1 @@
+def paper():    n=int(input())    if(n>0):        r=0        x=0        while(n>1):            if(n%2==1):                x=1            r+=1            n=n//2        print(2*(r+x))    else:        print("Invalid")paper()

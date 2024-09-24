@@ -2,8 +2,8 @@
 class Ansh {
     public:
         double a;
-        double square();
-        double length(double l);
+        void square();
+        void length(double l);
     private:
         double b_;
 };

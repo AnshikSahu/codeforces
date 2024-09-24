@@ -1,0 +1,41 @@
+import React from "react";
+import styled from "@emotion/styled";
+
+export  function Desktop1 () {
+	return (	
+	<RootWrapperDesktop1>
+    <Image1 src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/766e/373c/18c4164a212d576310f573eec4498fbd" alt="image of Image1"></Image1>
+  <Home>
+      Home
+    </Home>
+  </RootWrapperDesktop1>	
+)
+}
+
+const RootWrapperDesktop1 = styled.div`
+	min-height: 100vh;
+	background-color: rgba(255, 255, 255, 1);
+	position: relative;
+`;
+
+const Image1 = styled.img`
+	width: 1440px;
+	height: 1024px;
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+`;
+
+const Home = styled.span`
+	color: rgba(0, 0, 0, 1);
+	text-overflow: ellipsis;
+	font-size: 24px;
+	font-family: Paprika, sans-serif;
+	font-weight: 400;
+	text-align: center;
+	position: absolute;
+	left: calc((calc((50% + -614px)) - 60px));
+	top: calc((calc((50% + -467px)) - 23px));
+`;
+

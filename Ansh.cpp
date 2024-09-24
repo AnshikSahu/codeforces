@@ -1,9 +1,9 @@
 #include "Ansh.h"
-double Ansh::length(double l){
+void Ansh::length(double l){
     b_=l;
-    return 0;
 }
-double Ansh::square(){
-    a=b_*b_;
-    return 0;
+void Ansh::square(){
+    for(int i=0;i<b_;i++){
+        a=a*b_
+    }
 }
